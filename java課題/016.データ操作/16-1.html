@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>16.データ操作-1</title>
+</head>
+<body>
+	<form action="16-2.jsp" method="post"> <!-- データをjspに送信 -->
+          <p>
+         	 <label>名前：</label> <input type="text" name="name">
+          </p>
+          <fieldset> <!-- 入力フォームをグループ化 -->
+             <legend>性別：</legend> <!-- 入力項目グループにタイトルをつける -->
+             <label>男</label><input type="radio" name="sex" value="male">
+             <label>女</label><input type="radio" name="sex" value="female">
+          </fieldset>
+          <p>
+             <label>趣味：</label> <textarea name="hobby"></textarea>
+          </p>
+          <p>
+          	<input type="submit" value="送信"><input type="reset" value="リセット">
+          </p>
+	</form>
+</body>
+</html>
