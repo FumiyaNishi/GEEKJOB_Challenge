@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>16.データ操作-2</title>
+<title>16.データ操作-4</title>
 </head>
 <body>
 	<%@ page import="java.util.Date, java.net.*" %>
